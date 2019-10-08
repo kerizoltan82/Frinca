@@ -1,0 +1,363 @@
+
+body
+{
+    /*background: #A4B6B9;*/
+    background: url('res/wood_02.jpg');
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+div.island_panel
+{
+    color: #e0e0ff;
+    
+    border: 3px solid #60b030;
+    margin: 10px;
+    padding: 10px;
+    
+    background: rgba(255,255,255,0.3);
+}
+
+ 
+/* ============= login panel ============ */
+
+div.loginpanel
+{
+    font: 9pt Helvetica; 
+    background: #f0f0a0;
+    border-bottom: 2px solid #808020;
+    color: #808020;
+    height: 1.2em;
+    padding: 1px;
+}
+table.loginpaneltable
+{
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    font: 9pt Helvetica;
+    color: #808020;
+}
+
+h1
+{
+    text-align: center;
+    border-bottom: 2px solid #22D522;
+    padding: 4px;
+    margin: 6px;
+}
+
+div.finca_cover
+{
+    background-image: url('res/frinca_cover.png');
+    float: left;
+    width: 336px;
+    height: 960px;
+    margin: 6px;
+    
+}
+
+/* ============= fruit popup ============ */
+
+#blanket {
+    background-color: #111;
+    opacity: 0.45;
+    filter: alpha(opacity=45);
+    position: absolute;
+    z-index: 9001;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#fruitpopup_window
+{
+
+    position:absolute;
+    background-color:#eeeeee;
+    left: 320px;
+    top: 280px;
+    width:480px;
+    height:480px;
+    z-index: 9002;
+    text-align: center;
+}
+#fruitpopup_table
+{
+    border-collapse: collapse;
+    border: 0;
+    
+    margin: 3px;
+    padding: 0px;
+}
+
+#fruitpopup_table td
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+    width: 128px;
+    height: 128px;
+    background-color: #909090;
+}
+
+#fruitpopup_table img
+{
+    display: inline-block;
+    border-radius: 6px;
+    -webkit-border-radius: 6px; 
+    border: 2px solid green;
+    margin: 6px;
+    padding: 6px;
+}
+
+#fruitpopup_hidebutton
+{
+    margin: 6px;
+    padding: 6px;
+    border-style: outset;
+    font: 14pt Arial;
+    text-align: center;
+    background-color: blue;
+    width: 50%;
+
+    border: 2px solid black;
+    border-radius: 4px;
+    -webkit-border-radius: 4px; 
+}
+
+/* ================ main board ================ */
+
+div.board_info
+{
+    font-size: 14pt;
+    color:  #20209f;
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 750px;
+    top: 256px;
+    background-color: rgba(140,140,250,0.55);
+    /*border-style: outset;*/
+    padding: 6px;
+    z-index: 100;
+    
+    border-radius: 8px;
+    -webkit-border-radius: 8px; 
+}
+
+div.game_undo
+{
+    font-size: 17pt;
+    color: #c0c0ff;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 10px;
+    top: 120px;
+    background-color: #7070ff;
+    border: 2px solid blue;
+
+    padding: 14px;
+}
+
+div.info
+{
+    font-size: 17pt;
+    color: #c0c0ff;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 10px;
+    top: 30px;
+    background-color: #7070ff;
+    border-style: outset;
+    padding: 14px;
+} 
+
+div.laststep 
+{
+    font-size: 12pt;
+    background: rgba(250,250,250,0.5);
+    /*color: #e0e0ff;*/
+    color: #202020;
+    position: absolute;
+    width: 272px;
+    height: 156px;
+    left: 960px;
+    top: 30px;
+    padding: 7px;
+    border: 2px solid black;
+        
+    border-radius: 8px;
+    -webkit-border-radius: 8px; 
+
+}
+
+/* ================ main board ================ */
+div.windmill  
+{
+    background-image: url('res/windmill.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    left: 400px;  
+    top: 220px;
+}
+ 
+#cart_stand
+{ 
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 187px;
+    top: 180px;
+}
+   
+div.region_fruitcard
+{
+    position: absolute; 
+    /*background-color: green;*/
+    background-image: url('res/fruitcard_empty.png');
+    background-repeat: no-repeat;
+    width: 66px;
+    height:70px;
+    
+}
+div.region_finca
+{
+    position: absolute;
+    background-image: url('res/finca_card_empty.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height:48px; 
+    border: 0px; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+div.board
+{
+    background-image: url('res/board.png'); 
+    background-repeat: none; 
+    width: 800px;
+    height: 591px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 0;
+}
+
+div.windmill_blade
+{
+    position: absolute;
+    background-repeat: none;
+}
+
+div.windmill_farmer
+{
+    position: absolute;
+    background-repeat: none;
+    width: 24px; 
+    height: 38px;
+    padding: 0;
+    margin: 0;
+}
+
+/* form for javascript actions */
+div.game_move
+{
+    display: none;
+    border: 3px solid grey;
+    background-color: #6060ff;
+    padding: 4px;
+    position: absolute;
+    left: 20px;
+    top: 1010px;
+    width: 800px;
+    height: 200px;
+
+}
+
+/* ================ PLAYER POSITIONS ================ */
+
+div.div_player_0
+{
+    /* border will be overwritten by in-element css */
+    background-color: rgba(250,250,250,0.3);
+
+    position: absolute;
+    left: 6px;
+    top: 200px;
+    width: 190px;
+    height: 700px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    color: black;
+    font-weight: bold;
+}
+div.div_player_1
+{
+    background-color: rgba(250,250,250,0.3);
+    border: 1px solid black;
+    position: absolute;
+    left: 210px;
+    top: 24px;
+    width: 700px;
+    height: 190px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    color: black;
+    font-weight: bold;
+}
+div.div_player_2
+{
+    background-color: rgba(250,250,250,0.3);
+
+    border: 1px solid black;
+    position: absolute;
+    left: 1010px;
+    top: 200px;
+    width: 190px;
+    height: 700px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+
+    color: black;
+    font-weight: bold;
+}
+div.div_player_3
+{
+    background-color: rgba(250,250,250,0.3);
+
+    border: 1px solid black;
+    position: absolute;
+    left: 300px;
+    top: 800px;
+    width: 700px;
+    height: 190px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+
+    color: black;
+    font-weight: bold;
+}
+
+
+/* ================ extra info ================ */
+
+div.playerinfo
+{
+    display: none;
+}

@@ -1,0 +1,4965 @@
+player move
+Mainrules: ExecMove start
+'vars'
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+'vars'
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+'vars'
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '8',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:4 to:5 fruits:2 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:6 to:7 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:8 to:9 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:5 to:8 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:5 to:7 fruits:3 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|deliver Fruits:
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|deliver Fruits:
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:7 to:10 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:10 to:0 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:7 to:9 fruits:4 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|deliver Fruits:
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:11 to:0 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|0 got the finca
+<br>|deliver Fruits:
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '1',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:11 to:0 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:5 to:7 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:0 to:2 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:7 to:9 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:6 to:7 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:7 to:9 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:0 to:1 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '9',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '1',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 4,
+  2 => 1,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:9 to:11 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:2 to:4 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:11 to:0 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:3 to:5 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:1 to:3 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+    1 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 1,
+  2 => 0,
+  3 => 3,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|1 got the finca
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:3 to:5 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:6 to:8 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:4 to:5 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '1',
+    1 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 4,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '1',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 0,
+  2 => 3,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '1',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 1,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:6 to:9 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:8 to:9 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:9 to:0 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:2 to:3 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:0 to:2 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:3 to:5 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:3 to:4 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:4 to:5 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:6 to:9 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:5 to:6 fruits:4 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:6 to:9 fruits:0 numfruits: 4
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:9 to:1 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '9',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 6,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '1',
+    1 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|0 got the finca
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 1,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:9 to:0 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:6 to:8 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+<br>movefarmer 
+|from:6 to:7 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+<br>movefarmer 
+|from:1 to:3 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 3,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:8 to:9 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:7 to:9 fruits:0 numfruits: 4
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:9 to:1 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+<br>movefarmer 
+|from:9 to:0 fruits:1 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:1 to:3 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+<br>movefarmer 
+|from:0 to:3 fruits:3 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:3 to:6 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:9 to:11 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:6 to:7 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 3,
+  2 => 0,
+  3 => 2,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+<br>|1 got the finca
+deliver Fruits:
+array (
+  0 => 3,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:11 to:0 fruits:1 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+<br>movefarmer 
+|from:7 to:9 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+    1 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+<br>|0 got the finca
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 2,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+Mainrules: ExecMove, WINNER: 
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+0 got the finca
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+array (
+  0 => 35,
+  1 => 38,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+  6 => 0,
+)
+Mainrules: ExecMove, WINNER: 1
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+0 got the finca
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+array (
+  0 => 35,
+  1 => 38,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+  6 => 0,
+)
+Mainrules: ExecMove, WINNER: 1
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => NULL,
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+  6 => 0,
+)
+Mainrules: ExecMove, WINNER: 0
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '9',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:5 to:7 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:7 to:10 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:7 to:9 fruits:4 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 1,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:9 to:11 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '1',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:4 to:6 fruits:1 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:6 to:9 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:7 to:9 fruits:2 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:10 to:11 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:1 to:2 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:5 to:7 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:9 to:11 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:11 to:1 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '2',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 1,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '3',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:11 to:0 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:3 to:4 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:2 to:4 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:4 to:6 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:4 to:5 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:5 to:7 fruits:0 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 1,
+  2 => 1,
+  3 => 1,
+  4 => 1,
+  5 => 1,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '5',
+    1 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 1,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:9 to:10 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:10 to:0 fruits:3 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:0 to:3 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:5 to:6 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:10 to:11 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+    1 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 3,
+  2 => 3,
+  3 => 1,
+  4 => 1,
+  5 => 1,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+    1 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+0 got the finca
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:6 to:9 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:0 to:1 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:6 to:8 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:1 to:2 fruits:2 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:6 to:7 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:9 to:10 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:2 to:5 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:7 to:10 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:5 to:6 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:10 to:0 fruits:3 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:6 to:7 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:7 to:10 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:3 to:4 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 3,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:10 to:0 fruits:3 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:4 to:5 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:0 to:3 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:5 to:6 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:6 to:7 fruits:0 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:2 to:5 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:7 to:10 fruits:5 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:2 to:4 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:7 to:9 fruits:4 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:5 to:6 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:7 to:8 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:6 to:7 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+    1 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 3,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 5,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+)
+movefarmer from:8 to:10 fruits:5 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:10 to:1 fruits:1 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:10 to:0 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:1 to:2 fruits:2 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 3
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+)
+movefarmer from:2 to:5 fruits:5 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:8 to:9 fruits:4 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+)
+movefarmer from:2 to:4 fruits:1 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '1',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 2,
+  2 => 3,
+  3 => 2,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+)
+0 got the finca
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 5,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:9 to:11 fruits:2 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:4 to:6 fruits:0 numfruits: 1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '1',
+    2 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+    2 => '0',
+  ),
+)
+deliver Fruits:
+array (
+  0 => 4,
+  1 => 5,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '5',
+    2 => '8',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+    2 => '0',
+  ),
+)
+nobody got the finca
+deliver Fruits:
+array (
+  0 => 9,
+  1 => 2,
+  2 => 0,
+  3 => 0,
+  4 => 2,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '9',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '1',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+)
+movefarmer from:6 to:7 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:7 to:9 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:11 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '2',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 3,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:5 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:5 fruits:2 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:6 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:6 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:10 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '0',
+)
+movefarmer from:3 to:5 fruits:2 numfruits: 1 MOVEaction: Move_Farmer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:0 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '2',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 3,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '0',
+)
+movefarmer from:1 to:2 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:4 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:5 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:9 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:0 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:7 to:8 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:10 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:9 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:4 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+game restored to previous!
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '2',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 2,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'ActionCard1',
+  'Farmer_Index' => 3,
+  'To_Blade' => '1',
+)
+movefarmer from:5 to:1 fruits:0 numfruits: 1 MOVEaction: ActionCard1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'ActionCard1',
+  'Farmer_Index' => 1,
+  'To_Blade' => '4',
+)
+movefarmer from:6 to:4 fruits:1 numfruits: 3 MOVEaction: ActionCard1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '3',
+  'ActionCard_Param1' => '4',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 3,
+  4 => 1,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '9',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '0',
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:0 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '9',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 4,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 6,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:7 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '3',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 5,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '5',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 6,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '2',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '1',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '9',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '8',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:9 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:11 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:5 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:7 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 6,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:11 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:7 to:8 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:9 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '9',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '3',
+  'ActionCard_Param1' => '2',
+)
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 2,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:11 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:6 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '8',
+    1 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 3,
+  2 => 0,
+  3 => 0,
+  4 => 1,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 3,
+  4 => 2,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 3,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:10 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:8 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:11 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:9 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:1 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '4',
+    1 => '0',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 0,
+  2 => 3,
+  3 => 2,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:0 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+1 got the finca
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 2,
+  4 => 3,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '8',
+    1 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 5,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 1,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:10 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '0',
+)
+movefarmer from:1 to:3 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '9',
+    1 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 4,
+  5 => 2,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 4 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 4,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '4',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 5,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:10 fruits:4 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:0 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:9 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:2 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:9 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '0',
+)
+movefarmer from:2 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '5',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 6,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:6 fruits:4 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:5 fruits:2 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:9 fruits:0 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:6 fruits:4 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+    1 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '3',
+  'ActionCard_Param1' => '0',
+)
+1 got the finca
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 2,
+  2 => 2,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '4',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 0,
+  3 => 0,
+  4 => 6,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:9 fruits:0 numfruits: 4 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:1 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:8 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:0 fruits:3 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+1 got the finca
+deliver Fruits:
+array (
+  0 => 2,
+  1 => 1,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 3,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '6',
+    1 => '2',
+    2 => '7',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+    2 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+0 got the finca
+0 got the finca
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 3,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+array (
+  0 => 52,
+  1 => 59,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+  6 => 0,
+)
+Mainrules: ExecMove, WINNER: 1
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:3 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '4',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '6',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '8',
+)
+MainRules: IncrementPlayer
+game restored to previous!
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '1',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '8',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '7',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '0',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '5',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '8',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '10',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '3',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Place_Farmer',
+  'Windmill_Blade' => '11',
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:3 to:4 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from: to:0 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:6 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:10 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:0 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:2 fruits:1 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:2 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:4 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:10 to:11 fruits:3 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 2,
+  'ActionCard' => '',
+)
+movefarmer from:6 to:7 fruits:1 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:2 fruits:1 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:4 to:5 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '4',
+    1 => '3',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 0,
+  2 => 3,
+  3 => 0,
+  4 => 0,
+  5 => 3,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 6,
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:2 to:5 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:7 to:9 fruits:0 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '',
+)
+movefarmer from:8 to:9 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 0,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:6 fruits:5 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '3',
+    1 => '6',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 1,
+  1 => 1,
+  2 => 1,
+  3 => 1,
+  4 => 3,
+  5 => 1,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '7',
+    1 => '8',
+    2 => '5',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '0',
+    1 => '0',
+    2 => '0',
+  ),
+  'ActionCard' => '',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 3,
+  1 => 0,
+  2 => 1,
+  3 => 2,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 3,
+  'ActionCard' => '0',
+)
+movefarmer from:2 to:4 fruits:0 numfruits: 2 MOVEaction: Move_Farmer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:9 to:11 fruits:3 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'ActionCard1',
+  'Farmer_Index' => -1,
+  'To_Blade' => '0',
+)
+movefarmer from:2 to:0 fruits:2 numfruits: 2 MOVEaction: ActionCard1
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 1,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:1 fruits:5 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:0 to:1 fruits:5 numfruits: 3 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => 4,
+  'ActionCard' => '',
+)
+movefarmer from:11 to:0 fruits:2 numfruits: 2 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:1 to:3 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Move_Farmer',
+  'Farmer_Index' => -1,
+  'ActionCard' => '',
+)
+movefarmer from:5 to:5 fruits:4 numfruits: 1 MOVEaction: Move_Farmer
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '0',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '0',
+    1 => '5',
+    2 => '2',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '1',
+    1 => '0',
+    2 => '0',
+  ),
+  'ActionCard' => '2',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 0,
+  1 => 7,
+  2 => 2,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
+player move
+Mainrules: ExecMove start
+array (
+  'Player_Index' => '1',
+  'Move_Type' => 'Deliver',
+  'Regions' => 
+  array (
+    0 => '5',
+    1 => '2',
+    2 => '4',
+  ),
+  'Questionmarks' => 
+  array (
+    0 => '05',
+    1 => '0',
+  ),
+  'ActionCard' => '2',
+  'ActionCard_Param1' => '',
+)
+deliver Fruits:
+array (
+  0 => 6,
+  1 => 0,
+  2 => 3,
+  3 => 2,
+  4 => 0,
+  5 => 0,
+)
+MainRules: IncrementPlayer
