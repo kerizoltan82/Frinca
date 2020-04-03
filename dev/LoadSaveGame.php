@@ -5,16 +5,36 @@ require_once('debug.php');
 
 // returns an array with the files found in the game dierctory.
 // backups are excluded.
-function GetUnfinishedGameList()
+function GetUnfinishedGameList($player_filter)
 {
     $allgames =  GetGameList('games');
-    // filter out finished
+	$ret = array();
+	//logs( '====> palyerfilter: '.$player_filter);
+    // filter out finished not neede because they are moved from here away as files
     for($i=0; $i<count($allgames); $i++) {
-        // open game
+		if($player_filter!== 'multi') { // multi has no filtering
+			// open game
+			$game_load = array();
+			
+			LoadGameFile($allgames[$i], $game_load);
+			//logs( 'game loaded: '.$allgames[$i]);
+			$num_players = $game_load['Num_Players'];
+			//logvar($game_load);
+			//logs( 'num of players '.$num_players);
+			for($j=0; $j<$num_players; $j++) {
+				$player_name = $game_load['Name_Player_'.$j];
+				// check if player is included adn append to result
+				
+				if($player_name == $player_filter) {
+					//logs('player added: '. $player_name);
+					$ret[]  = $allgames[$i];
+				}
+			}
+		}
+        
     }
-    // TODO: filter
     // TODO: move finished games to an "archived" folder.
-    return $allgames;
+    return $ret;
 }
 
 function GetArchivedGameList()
@@ -35,12 +55,13 @@ function CheckArchivedGames()
 {
     global $game;
     $dir = 'games/';
-    $allgames = GetUnfinishedGameList();
+    $allgames = GetUnfinishedGameList('multi');
     $archivegames = array();
     // now check
     for($i=0; $i<count($allgames); $i++) {
-        LoadGame($allgames[$i]);
-        if( $game['Winner'] > -1 ) {
+		$gam = array();
+        LoadGameFile($allgames[$i], $gam);
+        if( $gam['Winner'] > -1 ) {
             $archivegames[] = $allgames[$i];
         }
     }
@@ -94,6 +115,12 @@ function RestoreGame($gameid) {
 function LoadGame($gameid)
 {
     global $game;
+	LoadGameFile($gameid, $game);
+}
+
+// loads the game into game_var (which should be a simple array type)
+function LoadGameFile($gameid, &$game_var)
+{
     $fname = 'games/game_'.$gameid.'.txt';
     // if we did not find it, then look into archived games.
     if( !file_exists($fname) ) {
@@ -103,7 +130,7 @@ function LoadGame($gameid)
     foreach($lines as $line) 
     {
         $la = explode("=", $line) ;
-        $game[ $la[0] ] = $la[1] ;
+        $game_var[ $la[0] ] = $la[1] ;
     }
 }
 

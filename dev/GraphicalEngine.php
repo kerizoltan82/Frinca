@@ -774,7 +774,7 @@ function GraphicalEngine_StartOrResumeGame($curplayerindex, $cpname, $archivegam
     if( $archivegamestoload ) {
         $games = GetArchivedGameList();
     } else {
-        $games = GetUnfinishedGameList();
+        $games = GetUnfinishedGameList($cpname);
     }
     foreach($games as $g) {
         print '<option>'.$g.'</option>';
