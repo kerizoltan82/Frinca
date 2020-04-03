@@ -1,6 +1,7 @@
 <?php
-
 /*
+
+this script is the game starter
 
 Used Modules:
 LoadSaveGame

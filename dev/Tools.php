@@ -187,7 +187,8 @@ function BladePosToFarmerIndex($player, $blade)
 }
 
 
-// return if place or move farmer is correct.
+// return if place or move farmer is next in game 
+// (first "place" until all farmers are on the blade), then "move".
 function GetGamePhase($player) 
 {
     global $game;

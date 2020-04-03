@@ -1,6 +1,11 @@
 <?php
+/*
+ This script contains information where some game elements x,y positions on the board
+ and also some image processing for the fruit blades, which have to be composed randomly from the 
+ color blades and fruit images.
+*/
 
-
+//rename to InitDecor
 function GetDecorations()
 {
     global $decor;
@@ -139,7 +144,7 @@ function GetFincaPosition($region)
     return $pos;
 }
 
-
+// rename to Init...
 function FillBladeFarmerPositions() 
 {
     global $BladeFarmerPosition;
@@ -340,10 +345,26 @@ function imagecopyx($dest_img , $src_img , $dest_x , $dest_y, $imgw,$imgh)
 
 function test()
 {
-    //fruit
-    $secondimg = imagecreatefrompng("res/blade_0.png");
-    imagesavealpha ( $secondimg ,true );
-    imagealphablending ( $secondimg ,false );
+    //fruit blade test
+    $secondimg = @imagecreatefrompng("res/blade_0.png");
+	if(!$secondimg)
+    {
+		print 'error loading image';
+		return;
+	}
+	/*
+	print $secondimg;
+	//header('Content-Type: image/png');
+    //imagepng ( $secondimg , 'windmill_debug.png');
+	$width = imagesx( $secondimg );
+	$height = imagesy( $secondimg ); 
+	print 'w'.$width;
+	print 'h'.$height;
+	*/
+	
+imagealphablending ( $secondimg ,false );
+	imagesavealpha ($secondimg, true );
+	imagealphablending ( $secondimg ,false );
 
     //bg start
     $blank = imagecreatetruecolor(380, 380);
@@ -353,8 +374,17 @@ function test()
     imagefill($blank, 0, 0, $trp);
     
     //rot img
-    $background = imagecolortransparent($secondimg);
-    $rotimg = imagerotate ( $secondimg , 38 , $background ); 
+	// get the transparent color fo the image.
+	// strange workaround: in older versions of php/gd it worked with imagecolortransparent
+	// since 2020, it works only with getting/reading the first pixel which in the blade is transparent.
+	//$black = imagecolorallocate($secondimg, 0, 0, 0);
+	//$background = imagecolortransparent($secondimg, $black);
+	$background = imagecolorat($secondimg, 0, 0);
+    //$background = imagecolortransparent($secondimg);
+	print 'transp color: '.$background;
+	//$background = imagecolorallocatealpha($secondimg, 255, 255, 255, 255);
+	//$background = imagecolorallocate($secondimg, 255, 255, 255);
+    $rotimg = imagerotate ( $secondimg , 38 , $background );  
     imagesavealpha ( $rotimg ,true );
 
     imagecopy ( $blank , $rotimg , 100 , 100, 0 , 0 , 76,107);
@@ -367,7 +397,7 @@ function test()
     imagecopyx ( $blank , $rotimg2 , 50 , 50, $imgw,$imgh);
     
     //save
-    imagepng ( $blank , 'windmillx.png');
+    imagepng ( $blank , 'windmill_debug.png');
 
     imagedestroy($blank);
     imagedestroy($secondimg);
@@ -417,7 +447,10 @@ function CreateWindmill($game_name)
         $rotate_deg = -($i-3)*30;
         $fruitimg = $fruitimages[$fruit];
         
-        $background = imagecolortransparent($fruitimg);
+		// see above in test() for workaround reason
+        //$background = imagecolortransparent($fruitimg); // old 
+		//$background = imagecolorallocate($fruitimg, 255, 255, 255);
+		$background = imagecolorat($fruitimg, 0, 0);
         $rotimg = imagerotate ( $fruitimg , $rotate_deg , $background ); 
         
         $imgw = imagesx($rotimg);

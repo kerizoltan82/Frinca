@@ -34,6 +34,7 @@ session_start();
 
 GetDecorations();
 
+//-------------------------------
 // logout required?
 if( isSet( $_GET['logout'] ))
 {
@@ -48,6 +49,7 @@ if( isSet( $_GET['logout'] ))
     }    
 }
 
+//-------------------------------
 // player is logged in?
 if( isSet($_SESSION['playerid']) )
 {
@@ -80,7 +82,8 @@ else
 // get the player ID from the name.
 //$curplayer = GetPlayerFromDB($curplayername); //if 'multi', thenreturn -1.
 
-// get game
+//-------------------------------
+// get game and display game selector if there is none 
 $Current_Game = '';
 if( isSet( $_SESSION['gameid'] ))
 {
@@ -106,6 +109,10 @@ if($Current_Game == '')
     exit(0);
 }
 
+//-------------------------------
+// from here, we are in a game
+//-------------------------------
+
 // init graphics
 FillFruitCards();
 FillFincaCards();
@@ -113,7 +120,7 @@ FillFincaCards();
 // main game variable
 $game = array();
 
-// handle undo
+// handle undo (by loading the previous step of game, saved in file)
 if( isSet( $_POST['undo'] ))
 {
     $ret = RestoreGame($Current_Game);
@@ -127,7 +134,7 @@ if( isSet( $_POST['undo'] ))
 // load the game from disk
 LoadGame( $Current_Game );
 
-// get player move if any
+// get player move if any, give as POST param
 if( isSet( $_POST['move'] ))
 {
     if( $_POST['move'] != '' ) {
@@ -140,7 +147,7 @@ if( isSet( $_POST['move'] ))
         BackupGame($Current_Game);
         $ret = ExecMove( $Current_Move );
         if( !$ret ) {
-            // a move error has occured
+            // a move error has occured, restore the older game 
             $err = $game['Last_Move_Error'];
             RestoreGame($Current_Game);
             LoadGame( $Current_Game );

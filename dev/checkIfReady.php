@@ -1,8 +1,11 @@
 <?php
-
-// attention: all files included must not have any spaces!!
-// (as html content, before or after php sign whatever)
-
+/*
+ This should be called via ajax from the client (browser) to check if the other player has moved already.
+ it returns the strings "update" or "none" (or some error).
+ 
+ attention: all files included must not have any spaces!!
+ (as html content, before or after php sign whatever)
+*/
 
 require_once('LoadSaveGame.php');
 require_once('debug.php');
@@ -44,7 +47,7 @@ $game = array();
 LoadGame( $Current_Game );
 
 // if other player than now, or if someone has won
-// (if someone won, it will be only once update, then the checkoing will stop)
+// (if someone won, it will be only once update, then the checking will stop)
 if( ($expected_player != $game["Current_Player"]) || ($game['Winner'] > -1) ) {
     
     print "update";

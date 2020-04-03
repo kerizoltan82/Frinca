@@ -1,8 +1,7 @@
 <?php
 
 /*
-Used modules:
-
+ code for determining who is the winner, from $game var
 
 
 */

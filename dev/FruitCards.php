@@ -1,4 +1,8 @@
 <?php
+/*
+ this script contains code to fill the fruit and frinca cards at startup randomly
+
+*/
 
 function FillFruitCards()
 {

@@ -1,8 +1,7 @@
 <?php
-
 /*
 
-
+ code for game startup, setting variables in $game
 
 */
 
