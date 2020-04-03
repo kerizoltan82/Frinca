@@ -18,6 +18,14 @@ function guestlogin()
     loginform.submit();
 }
 
+function registerplayer()
+{
+    var loginform = returnObjById('loginform' );
+    var nametext = returnObjById('loginname' );
+    nametext.value;
+    loginform.submit();
+}
+
 function loadArchivedGames() 
 {
     

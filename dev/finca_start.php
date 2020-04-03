@@ -27,11 +27,20 @@ if( isSet($_SESSION['playerid']) )
 }
 else
 {
-    // see if it is params
+	// see if it is params
     if (isSet($_POST['player'] ))
     {
         // when POST player is set, the name is given, not id.
         $curplayername = $_POST['player'];
+		logs('reg_check: '.$_POST['register_check'] );
+		if (isSet($_POST['register_check']) && $_POST['register_check'] == true ) {
+			
+			$ret = AddNewPlayer($curplayername );
+			if(  $ret == false ) {
+				GraphicalEngine_AskLogin_Page('Regisztrációs hiba: ilyen nevű játékos már van az adatbázisban.');
+				exit(0);
+			}
+		}
         $curplayer = GetPlayerIDFromDB($curplayername);
         // check login error.
         if(  $curplayer == -3 ) {

@@ -3,11 +3,12 @@
 require_once('Decor.php');
 require_once('WinRules.php');
 require_once('LoadSaveGame.php');
+require_once('PlayerDB.php');
 require_once('Tools.php');
 require_once('scriptnames.php');
 
 /* ========================================================== */
-function printLoginPanel($curplayerindex, $curplayername, $curgame)
+function printLoginPanel($loggedin_player_id, $curplayername, $curgame)
 {
     global $game;
     global $decor;
@@ -29,9 +30,9 @@ function printLoginPanel($curplayerindex, $curplayername, $curgame)
     print '</td><td style="text-align: right; width:30%;">';
     
     //player  - on the right
-    if ($curplayerindex == -1) { //multi mode
+    if ($loggedin_player_id == -1) { //multi mode
         print "Több-játékos mód | ";
-    } else if ($curplayerindex == -2) { // guest login 
+    } else if ($loggedin_player_id == -2) { // guest login 
         print "Vendég mód | ";
     } else {
         //if( $curgame != '') {
@@ -47,8 +48,9 @@ function printLoginPanel($curplayerindex, $curplayername, $curgame)
 }
 
 /* ========================================================== */
-function GraphicalEngine_Display($curplayerindex, $curplayername, $curgameindex)
+function GraphicalEngine_Display($loggedin_player_id, $curplayername, $curgameindex)
 {
+
     
     global $game;
     global $decor;
@@ -56,7 +58,17 @@ function GraphicalEngine_Display($curplayerindex, $curplayername, $curgameindex)
     global $BladeFarmerDirection;
     global $NumFruitCards;
     global $FruitCards;
-    
+	
+	// determine my player index
+	$players = GetPlayers();
+	$loggedin_name = $players[$loggedin_player_id];
+	for($i=0; $i<$game["Num_Players"]; $i++) {
+		if($game['Name_Player_'.$i] == $loggedin_name) {
+			$curplayerindex = $i;
+		}
+	}
+	
+	
     // game info
     $cp = $game["Current_Player"];
     $cpname = $game['Name_Player_'.$cp];
@@ -70,6 +82,7 @@ function GraphicalEngine_Display($curplayerindex, $curplayername, $curgameindex)
         $board_enabled = false;
     } else {
         // if non multi-player, disable if not current player
+		//logs('curplayer:'.$curplayerindex);
         if( $curplayerindex > -1 ) {
             if( $curplayerindex != $cp ) {
                 $board_enabled = false;
@@ -80,15 +93,22 @@ function GraphicalEngine_Display($curplayerindex, $curplayername, $curgameindex)
                     $titlestr = "Te jössz!";
                 }
             }
-        } else if ( $curplayerindex == -2 ) {
+        } 
+		if ( $loggedin_player_id == -2 ) {
             // guest mode, disable all.
             $board_enabled = false;
+			$curplayerindex = -1;
+        }
+		else if ( $loggedin_player_id == -1 ) {
+            // multi mode, enable all
+            $board_enabled = true;
+			$curplayerindex = $cp;
         }
     }
     
     printStartHtmlEx($titlestr, 'decor.css', 'decor.js', 'timer.js');
     
-    printLoginPanel($curplayerindex, $curplayername, $curgameindex);
+    printLoginPanel($loggedin_player_id, $curplayername, $curgameindex);
     
     // PLAYER INFO
     if( $game['Winner'] > -1 ) {
@@ -308,20 +328,20 @@ function GraphicalEngine_Display($curplayerindex, $curplayername, $curgameindex)
 
     print ("</div>\n");
     
-    PrintAjaxInteractive($curplayerindex, $curgameindex);
+    PrintAjaxInteractive($loggedin_player_id, $curplayerindex, $curgameindex);
     
     printEndHtml();
     
 }
 
-function PrintAjaxInteractive($curplayerindex, $curgameindex)
+function PrintAjaxInteractive($loggedin_player_id, $curplayerindex, $curgameindex)
 {
     global $game;
     
     //for multi-mode, there is no ajax.
-    if( $curplayerindex == -1) return;
+    if( $loggedin_player_id == -1) return;
     // for guest mode also no ajax.
-    if( $curplayerindex == -2) return;
+    if( $loggedin_player_id == -2) return;
     // if someone has won, do not do check for update
     if( $game['Winner'] > -1 ) return;
     
@@ -747,14 +767,14 @@ function PrintDebugInfo()
 /* ========================================================== */
 
 // prints the start or resume page with game list.
-function GraphicalEngine_StartOrResumeGame($curplayerindex, $cpname, $archivegamestoload)
+function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archivegamestoload)
 {
     global $scriptnames;
     
     CheckArchivedGames() ;
 
     printStartHtmlEx("Játékválasztás", "decor.css", '', '');
-    printLoginPanel($curplayerindex, $cpname, '');
+    printLoginPanel($loggedin_player_id, $cpname, '');
     
     // left finca logo
     echo '<div class="finca_cover"></div>';
@@ -893,10 +913,13 @@ function GraphicalEngine_AskLogin_Page($extramsg)
         echo '<br/>';
     }
     echo 'Név:';
-    echo '<input id="loginname" name="player" type="text" value="multi" cols="16"/> <br/><br/>'; 
+    echo '<input id="loginname" name="player" type="text" value="" cols="16"/> <br/>'; 
     
-    echo '<input id="loginbutton" class="loginbutton" name="submitbutton" type="submit" value="Belépés"/> ';
-    echo '<br /><br /><input id="loginguest" class="loginbutton" name="submitbutton2" type="submit" value="Belépés vendégként" onClick="guestlogin();"/> ';
+    
+    echo '<input id="register_check" name="register_check" type="checkbox" value="reg" /> <label for="register_check">Regisztráció</label><br>';
+	echo '<br/> <input id="loginbutton" class="loginbutton" name="submitbutton" type="submit" value="Belépés"/> ';
+
+    echo '<br /><input id="loginguest" class="loginbutton" name="submitbutton2" type="submit" value="Belépés vendégként" onClick="guestlogin();"/> ';
     echo '</form>';
     print ("</div>");
     print ("</td></tr></table>");

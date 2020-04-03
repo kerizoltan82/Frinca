@@ -53,8 +53,8 @@ if( isSet( $_GET['logout'] ))
 // player is logged in?
 if( isSet($_SESSION['playerid']) )
 {
-    $curplayer = $_SESSION['playerid'];
-    $curplayername = GetPlayerNameFromDB($curplayer);
+    $loggedin_player_id = $_SESSION['playerid'];
+    $curplayername = GetPlayerNameFromDB($loggedin_player_id);
 }
 else
 {
@@ -63,13 +63,22 @@ else
     {
         // when POST player is set, the name is given, not id.
         $curplayername = $_POST['player'];
-        $curplayer = GetPlayerIDFromDB($curplayername);
+		//logs('reg_check: '.$_POST['register_check'] );
+		if (isSet($_POST['register_check']) && $_POST['register_check'] == true ) {
+			
+			$ret = AddNewPlayer($curplayername );
+			if(  $ret == false ) {
+				GraphicalEngine_AskLogin_Page('ilyen nevű játékos már van az adatbázisban.');
+				exit(0);
+			}
+		}
+        $loggedin_player_id = GetPlayerIDFromDB($curplayername);
         // check login error.
-        if(  $curplayer == -3 ) {
-            GraphicalEngine_AskLogin_Page('Hiba: ilyen nevű játékos még nincs az adatbázisban.');
+        if(  $loggedin_player_id == -3 ) {
+            GraphicalEngine_AskLogin_Page('Ilyen nevű játékos még nincs az adatbázisban.');
             exit(0);
         }
-        $_SESSION['playerid'] = $curplayer; // $_POST['player'];
+        $_SESSION['playerid'] = $loggedin_player_id; // $_POST['player'];
     }
     else
     {
@@ -79,8 +88,6 @@ else
     }
 }
 
-// get the player ID from the name.
-//$curplayer = GetPlayerFromDB($curplayername); //if 'multi', thenreturn -1.
 
 //-------------------------------
 // get game and display game selector if there is none 
@@ -105,7 +112,7 @@ if($Current_Game == '')
     } else {
         $archived = false;
     }
-    GraphicalEngine_StartOrResumeGame($curplayer, $curplayername,  $archived );
+    GraphicalEngine_StartOrResumeGame($loggedin_player_id, $curplayername,  $archived );
     exit(0);
 }
 
@@ -159,7 +166,7 @@ if( isSet( $_POST['move'] ))
 }
 
 // displays boards+players
-GraphicalEngine_Display($curplayer, $curplayername, $Current_Game);
+GraphicalEngine_Display($loggedin_player_id, $curplayername, $Current_Game);
 
 
 function GetMoveParametersFromPhp(&$TheMove)
