@@ -361,3 +361,23 @@ div.playerinfo
 {
     display: none;
 }
+
+div.player_color_selector
+{
+	display: inline-block;
+	width: 20px; 
+	height: 20px;
+	border-style: solid;
+	border-color: #909090;
+	border-width: 2px;
+}
+
+div.player_color_selector_selected
+{
+    display: inline-block;
+	width: 20px; 
+	height: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 2px;
+}

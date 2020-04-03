@@ -290,3 +290,32 @@ function showFruitPopup()
     document.appendChild(el);
     */
 }
+
+function player_select_color(player_ind, color_ind) {
+	var el = document.getElementById('inp_color' + player_ind);
+	el.value = color_ind;
+
+	for(var i=0; i<4; i++)
+	{
+		var el2 = document.getElementById('player_color_selector_box' + player_ind + '_' + i);	
+		//alert(el2);
+		if(i == color_ind ) {
+			el2.className = 'player_color_selector_selected';
+		}
+		else {
+			el2.className = 'player_color_selector';
+		}
+	}
+}
+
+
+// sets the hidden text field for player name to be submitted by form
+// not used, because select can submit a field to POSTs
+function player_name_selected(player_ind) {
+	var el = document.getElementById('inp_player_' + player_ind);
+	var el_src = document.getElementById('player_name_select_0' + player_ind);
+	el.value = el_src.options[el_src.selectedIndex].value;
+	
+	//alert(el_src);
+	//alert(el_src.options[el_src.selectedIndex].value);
+}

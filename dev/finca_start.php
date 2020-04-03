@@ -15,6 +15,7 @@ require_once('StartRules.php');
 require_once('GraphicalEngine.php');
 require_once('PlayerDB.php');
 require_once('scriptnames.php');
+require_once('debug.php');
 
 session_start();
 
@@ -87,7 +88,9 @@ $game['Game_Name'] = $gamename;
 $game['Num_Players'] = $numplayers;
 
 for($i=0; $i<$numplayers; $i++) {
-    $game['Name_Player_'.$i] = $_POST['inp_player'.$i];
+	//logs('inp player '.$_POST['inp_player'.$i]);
+	//logs('selection'.$_POST['player_name_select_'.$i]);
+    $game['Name_Player_'.$i] = $_POST['player_name_select_'.$i];
     $game['Player_Color_Index_'.$i] = $_POST['inp_color'.$i];
 }
 

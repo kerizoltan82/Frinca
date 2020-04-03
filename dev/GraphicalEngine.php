@@ -770,10 +770,10 @@ function PrintDebugInfo()
 function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archivegamestoload)
 {
     global $scriptnames;
-    
+
     CheckArchivedGames() ;
 
-    printStartHtmlEx("Játékválasztás", "decor.css", '', '');
+    printStartHtmlEx("Játékválasztás", "decor.css", 'decor.js', '');
     printLoginPanel($loggedin_player_id, $cpname, '');
     
     // left finca logo
@@ -842,12 +842,37 @@ function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archiv
     echo '<br>Játékosok száma:';
     echo '<select Name="inp_numplayers" ><option>2</option><option>3</option><option>4</option></select>';
     //echo '<input Name="inp_numplayers" type="text" value="2" /> ';
-    
-    echo '<br>1. Játékos neve:';
-    echo '<input Name="inp_player0" type="text" value="Piros" /> ';
-    echo '1. Játékos színe:';
-    echo '<input Name="inp_color0" type="text" value="0" /> ';
+	
+	$players = GetPlayers();
+	$colors[0] = 'F00000';
+	$colors[1] = '0000F0';
+	$colors[2] = 'F0F000';
+	$colors[3] = '008000';
+		
+	for($p=0; $p<4; $p++) {
+		$player_disp_name = ($p+1);
+		echo '<br>'.$player_disp_name.'. Játékos:';
+		//echo '<input Name="inp_player_'.$p.'" type="hidden" value=""  /> ';
+		// gets POSTed when form is  submitted
+		echo '<select id="player_name_select_'.$p.'" name="player_name_select_'.$p.'" > ';
+		//onselect="player_name_selected('.$p.');"  // does not get called when selcting from combo
+		for($i=0; $i<count($players); $i++) {
+			echo '<option>'.$players[$i].'</option>';
+		}
+		echo '</select>';
+		
+		echo ' színe:';
+		echo '<input Name="inp_color'.$p.'" id="inp_color'.$p.'" type="hidden" value="'.$p.'" /> ';
 
+		for($j=0; $j<4; $j++) {
+			$pclass = 'player_color_selector';
+			if ($p==$j) {
+				$pclass = 'player_color_selector_selected';
+			}
+			print '<div id="player_color_selector_box'.$p.'_'.$j.'" onClick="player_select_color('.$p.','.$j.')" class="'.$pclass.'" style="background-color: #'.$colors[$j].';">&nbsp;</div>';
+		}
+	}
+	/*
     echo '<br>2. Játékos neve:';
     echo '<input Name="inp_player1" type="text" value="Kék" /> ';
     echo '2. Játékos színe:';
@@ -862,7 +887,7 @@ function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archiv
     echo '<input Name="inp_player3" type="text" value="Zöld" /> ';
     echo '4. Játékos színe:';
     echo '<input Name="inp_color3" type="text" value="3" /> ';
-
+*/
     echo '<br /><br /><center><input Name="submit" type="submit" value="Új játék létrehozása" style="width: 280px; height: 40px;"/></center> ';
     echo '</form></div>';
     printEndHtml();
