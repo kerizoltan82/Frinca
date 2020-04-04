@@ -61,11 +61,16 @@ function GraphicalEngine_Display($loggedin_player_id, $curplayername, $curgamein
 	
 	// determine my player index
 	$players = GetPlayers();
-	$loggedin_name = $players[$loggedin_player_id];
-	for($i=0; $i<$game["Num_Players"]; $i++) {
-		if($game['Name_Player_'.$i] == $loggedin_name) {
-			$curplayerindex = $i;
+	if($loggedin_player_id >= 0) {
+		$loggedin_name = $players[$loggedin_player_id];
+		for($i=0; $i<$game["Num_Players"]; $i++) {
+			if($game['Name_Player_'.$i] == $loggedin_name) {
+				$curplayerindex = $i;
+			}
 		}
+	} 
+	else {
+		$curplayerindex = -1;
 	}
 	
 	
@@ -773,7 +778,7 @@ function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archiv
 
     CheckArchivedGames() ;
 
-    printStartHtmlEx("Játékválasztás", "decor.css", 'decor.js', '');
+    printStartHtmlEx("Játékválasztás", "decor.css", 'decor.js', '', 'new_game_load();');
     printLoginPanel($loggedin_player_id, $cpname, '');
     
     // left finca logo
@@ -840,18 +845,23 @@ function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archiv
     print ("<input Name=\"inp_name\" type=\"text\" value=\"$newgamename\" /> ");
     
     echo '<br>Játékosok száma:';
-    echo '<select Name="inp_numplayers" ><option>2</option><option>3</option><option>4</option></select>';
+    echo '<select Name="inp_numplayers" onchange="new_game_player_numberofplayers_changed(this.selectedIndex);" ><option>2</option><option>3</option><option>4</option></select>';
     //echo '<input Name="inp_numplayers" type="text" value="2" /> ';
+	echo '<br>';
 	
 	$players = GetPlayers();
 	$colors[0] = 'F00000';
 	$colors[1] = '0000F0';
 	$colors[2] = 'F0F000';
 	$colors[3] = '008000';
+	
+	
 		
 	for($p=0; $p<4; $p++) {
 		$player_disp_name = ($p+1);
-		echo '<br>'.$player_disp_name.'. Játékos:';
+		$disp = 'display: block;';
+		if($p>1) { $disp = 'display: none;'; }
+		echo '<div id="new_player_box_'.$p.'" style="'.$disp.'">'.$player_disp_name.'. Játékos:';
 		//echo '<input Name="inp_player_'.$p.'" type="hidden" value=""  /> ';
 		// gets POSTed when form is  submitted
 		echo '<select id="player_name_select_'.$p.'" name="player_name_select_'.$p.'" > ';
@@ -871,6 +881,7 @@ function GraphicalEngine_StartOrResumeGame($loggedin_player_id, $cpname, $archiv
 			}
 			print '<div id="player_color_selector_box'.$p.'_'.$j.'" onClick="player_select_color('.$p.','.$j.')" class="'.$pclass.'" style="background-color: #'.$colors[$j].';">&nbsp;</div>';
 		}
+		echo '</div>'; //new_player_box_
 	}
 	/*
     echo '<br>2. Játékos neve:';
@@ -982,11 +993,17 @@ function printHeaderEx($title, $cssfile, $includeJs1, $includeJs2)
     echo '</head>';
 }
 
-function printStartHtmlEx($title, $cssfile, $includeJs1, $includeJs2)
+function printStartHtmlEx($title, $cssfile, $includeJs1, $includeJs2, $body_onload_funct = '')
 {
     echo '<html>';
     printHeaderEx($title, $cssfile, $includeJs1, $includeJs2 );
-    echo '<body>';
+	if($body_onload_funct == '') {
+		echo '<body>';	
+	}
+	else {
+		echo '<body onLoad="'.$body_onload_funct.'">';	
+	}
+    
 }
 
 function printEndHtml()
