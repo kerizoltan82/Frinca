@@ -3,6 +3,7 @@
 /*
  code for determining who is the winner, from $game var
 
+ contains some logging 
 
 */
 
@@ -29,9 +30,9 @@ function CheckWin()
         $winplayer = WhoHasMostPoints();
         if( $winplayer==-1) {
             // special rules
-            log( 'CheckWin: players have the same points');
+            logs( 'CheckWin: players have the same points');
         } else {
-            log( "CheckWin: WINNER: $winplayer ");
+            logs( "CheckWin: WINNER: $winplayer ");
         }
         return $winplayer;
     } 
@@ -46,7 +47,7 @@ function WhoHasMostPoints()
     for($p=0; $p<$game['Num_Players']; $p++) {
         $points[$p] = GetPlayerPoints($p);
     }
-    log( 'WINRULES_POINTS:');
+    logs( 'WINRULES_POINTS:');
     logvar($points);
     // now determine who has most
     $max = 0;

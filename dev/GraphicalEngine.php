@@ -262,7 +262,15 @@ function GraphicalEngine_Display($loggedin_player_id, $curplayername, $curgamein
         } else {    
             // colored finca for player who has won it
             $fincawonplayer = $game["Board_Region_WhoHasWonFinca_$i"];
-            DrawFincaHouse($fincawonplayer, $htmlatt);
+			if($fincawonplayer >= 0) {
+				$color_of_player = $game["Player_Color_Index_".$fincawonplayer];
+				DrawFincaHouse($color_of_player, $htmlatt);
+			}
+			else {
+				// no one has won it, white color
+				DrawFincaHouse(-1, $htmlatt);
+			}
+            
         }
     }
     print ('</div>'); //board
@@ -635,9 +643,9 @@ function DrawFincaCard($fincaindex)
 // draws the finca house for the player
 // (finca house is got when fruitcards are empty for that region)
 // player can b -1, then grey finca card is drawn (nobody got the finca)
-function DrawFincaHouse($player, $extracss) 
+function DrawFincaHouse($color, $extracss) 
 {
-    print "<div class=\"region_finca\" style=\"$extracss; background-image: url('res/fincahouse_$player.png')\" > ";
+    print "<div class=\"region_finca\" style=\"$extracss; background-image: url('res/fincahouse_$color.png')\" > ";
     print "</div>";
 }
 

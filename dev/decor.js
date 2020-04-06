@@ -64,11 +64,19 @@ function setActioncard(player, cardindex)
         }
     }
         
-    //action card 2: 'max 10' deliver
+    //action card 2: 'max 10' deliver immediately
     if( cardindex == 2) {
+		// cehck if we can deliver
+		
         if( currentstate ) {
-            actpartext.value = '2';
-            setDeliver();
+			if(canDeliver()) {
+				actpartext.value = '2';
+				doDeliver();
+			} 
+			else {
+				// disable red bg because it failed
+				cardobj.style.backgroundColor = 'transparent';
+			}
         } // no else because fire once card
     }
 
@@ -85,6 +93,17 @@ function setActioncard(player, cardindex)
     }
 }
 
+function canDeliver() {
+	var movepar1text = returnObjById('moveparam1');
+	ret = movepar1text.value != '';
+	if(!ret) {
+		alert('Előbb válassz régiót, ahol szállítasz!')
+	}
+	return ret;
+}
+
+
+
 function submitForm()
 {
 	var submitform = returnObjById('gamestepform');    
@@ -95,6 +114,13 @@ function submitForm()
 }
 
 function setDeliver()
+{
+	if(canDeliver()) {
+		doDeliver();
+	} 
+}
+
+function doDeliver()
 {
 	var movetypetext = returnObjById('movetypeparam');
 	movetypetext.value = 'Deliver';
@@ -140,6 +166,7 @@ function bladeClick(blade)
         submitForm();
     }
 }
+
 
 // set region for delivering
 function setMoveRegion(region, qm)
@@ -334,5 +361,12 @@ function new_game_player_numberofplayers_changed(combo_index) {
 		}
 
 	}
+	
+}
+
+function checkGameStart() {
+	// players have different name?
+	// logged in player is present in game?
+	// no duplicate colors?
 	
 }
