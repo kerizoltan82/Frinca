@@ -362,7 +362,7 @@ function test()
 	print 'h'.$height;
 	*/
 	
-imagealphablending ( $secondimg ,false );
+	imagealphablending ( $secondimg ,false );
 	imagesavealpha ($secondimg, true );
 	imagealphablending ( $secondimg ,false );
 
@@ -415,30 +415,24 @@ function CreateWindmill($game_name)
         //$fruitimages[$i] = imagecreatefrompng("blade_fruit_$i.png");
         $fruitimages[$i] = imagecreatefrompng("res/blade_$i.png");
         
-        imagesavealpha ( $fruitimages[$i] ,true );
-        imagealphablending($fruitimages[$i], false);
+		// important: do NOT call these, or else the transparency is disrgarded...
+        //imagesavealpha ( $fruitimages[$i] ,true );
+        //imagealphablending($fruitimages[$i], false);
         
     }
 
     // load background
-  /*  $curbg = imagecreatefrompng("blades.png");
-    $imgw = imagesx($curbg);
-    $imgh = imagesy($curbg);
-    imagesavealpha ( $curbg ,true );
-*/
-    $blank = imagecreatetruecolor(380, 380);
-    //$black = imagecolorallocate($blank, 0, 0, 0);
-    //imagecolortransparent($blank, $black);
-    //imagecopy( $blank, $curbg, 0,0,0,0,$imgw,$imgh);
-    /*
-    imagealphablending($blank, true);
-    setTransparency($blank,$fruitimages[0] ); 
-    */
+	/*
+	$blank = imagecreatetruecolor(380, 380);
+
     imagealphablending($blank, false);    
     imagesavealpha ( $blank ,true );
     
     $trp = imagecolorallocatealpha($blank,0,0,0,127);
     imagefill($blank, 0, 0, $trp);
+	
+	*/
+	$blank = imagecreatefrompng("res/windmill_empty.png");
     
     for($i=0; $i<$game["Num_WindmillBlades"]; $i++) {
         $pos = GetWindmillBladePosition($i) ;
@@ -447,23 +441,18 @@ function CreateWindmill($game_name)
         $rotate_deg = -($i-3)*30;
         $fruitimg = $fruitimages[$fruit];
         
-		// see above in test() for workaround reason
-        //$background = imagecolortransparent($fruitimg); // old 
-		//$background = imagecolorallocate($fruitimg, 255, 255, 255);
+		// see above in test() for workaround reason of trp color
 		$background = imagecolorat($fruitimg, 0, 0);
         $rotimg = imagerotate ( $fruitimg , $rotate_deg , $background ); 
         
         $imgw = imagesx($rotimg);
         $imgh = imagesy($rotimg);
-        //imagecopymerge ($blank, $rotimg, $pos['x'] , $pos['y'],0,0,$imgw,$imgh,100);
-        //imagecopy ($blank, $rotimg, $pos['x'] , $pos['y'],0,0,$imgw,$imgh);
-        imagecopyx ($blank, $rotimg, $pos['x'] , $pos['y'],$imgw,$imgh);
+        imagecopy ($blank, $rotimg, $pos['x'] , $pos['y'],0,0,$imgw,$imgh);
 
     }
     //save background as windmill
     imagesavealpha($blank, true);
     imagepng ( $blank , "windmill_$game_name.png");
-    
     
 }
 
